@@ -1,0 +1,13 @@
+# Recipe (MakeRecipe) for Neofetch by Danil Yarantsev <tiberiumk12@gmail.com>, on Thu 04 Jun 2020 02:08:09 AM MSK
+# Recipe for version 7.0.0 by Danil Yarantsev <tiberiumk12@gmail.com>, on Thu 04 Jun 2020 02:08:09 AM MSK
+compile_version=017-GIT
+url="https://github.com/dylanaraps/neofetch/archive/7.0.0.tar.gz"
+file="neofetch-7.0.0.tar.gz"
+file_size=90892
+file_md5=b4e1231561d15be12f334de607c4327e
+dir='neofetch-7.0.0'
+recipe_type=makefile
+makefile='Makefile'
+make_variables=(
+   "PREFIX=$target"
+)
