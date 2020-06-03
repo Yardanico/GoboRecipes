@@ -1,0 +1,8 @@
+# Recipe (MakeRecipe) for Wireguard-Tools by Danil Yarantsev <tiberiumk12@gmail.com>, on Thu 04 Jun 2020 02:02:42 AM MSK
+# Recipe for version 1.0.20200513 by Danil Yarantsev <tiberiumk12@gmail.com>, on Thu 04 Jun 2020 02:02:42 AM MSK
+compile_version=017-GIT
+url="https://git.zx2c4.com/wireguard-tools/snapshot/wireguard-tools-1.0.20200513.tar.xz"
+file_size=94500
+file_md5=b058e5e7eb9f38dbdd553a19c6e5dd22
+dir='wireguard-tools-1.0.20200513/src'
+recipe_type=makefile
