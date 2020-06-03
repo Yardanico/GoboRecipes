@@ -1,0 +1,6 @@
+# Recipe (MakeRecipe) for Check by Michael Homer <michael@gobolinux.org>, on Tue Feb 2 15:46:29 NZDT 2010
+compile_version=1.13.0
+url="https://github.com/libcheck/check/releases/download/0.14.0/check-0.14.0.tar.gz"
+file_size=770800
+file_md5=270e82a445be6026040267a5e11cc94b
+recipe_type=configure

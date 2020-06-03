@@ -1,0 +1,17 @@
+# Recipe (MakeRecipe) for Kitty by Danil Yarantsev <tiberiumk12@gmail.com>, on Thu 04 Jun 2020 01:32:23 AM MSK
+# Recipe for version 0.17.4 by Danil Yarantsev <tiberiumk12@gmail.com>, on Thu 04 Jun 2020 01:32:23 AM MSK
+compile_version=017-GIT
+url="https://github.com/kovidgoyal/kitty/releases/download/v0.17.4/kitty-0.17.4.tar.xz"
+file_size=3068456
+file_md5=7f1e328847c29c7ba2d46a37148ad268
+dir='kitty-0.17.4'
+recipe_type=makefile
+
+do_build() {
+  python3 setup.py linux-package --update-check-interval=0
+}
+
+do_install() { 
+  cp -r linux-package/* $target/
+}
+
